@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="refresh"
+      content="3;url=https://testshop.projectcece.com?cece=test"
+    />
+    <title>Exit</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      main {
+        min-height: 100vh;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      p {
+        margin-bottom: 1rem;
+      }
+      a {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>You are now being redirect to Test Shop</h1>
+      <p>
+        <a id="outlink" href="https://testshop.projectcece.com?cece=test">
+          Or click here to continue
+        </a>
+      </p>
+    </main>
+    <script>
+      // Fallback for meta refresh ag
+      setTimeout(function () {
+        document.getElementById("outlink").click();
+      }, 3500);
+    </script>
+  </body>
+</html>
