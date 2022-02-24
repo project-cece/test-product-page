@@ -1,4 +1,4 @@
-# Fairnet test site
+# Test product page
 
 https://project-cece.github.io/test-product-page/
 
